@@ -12,3 +12,4 @@ control + D es para desconectar
 
 ejemplo en mismo computadora: `http://0.0.0.0:8000/principal.html`
 
+miras ahora: https://cutt.ly/MyvwOXk
