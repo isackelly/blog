@@ -19,6 +19,7 @@ handle(Req, State) ->
 	       <<"/con_lenses.jpg">> -> F0;
 	       <<"/mi.jpg">> -> F0;
 	       <<"/mi2.jpg">> -> F0;
+	       <<"/futuro.html">> -> F0;
                X -> 
                 io:fwrite("no tenemos esta fila: "),
                 io:fwrite(X),
