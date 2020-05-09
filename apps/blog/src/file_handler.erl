@@ -43,15 +43,15 @@ handle(Req, State) ->
             {{IP1, IP2, IP3, IP4}, _} ->
                 Time ++
                     binary_to_list(F0) ++
-                    " [" ++
+                    " " ++
                     integer_to_list(IP1) ++
-                    "," ++
+                    "." ++
                     integer_to_list(IP2) ++
-                    "," ++
+                    "." ++
                     integer_to_list(IP3) ++
-                    "," ++
+                    "." ++
                     integer_to_list(IP4) ++
-                    "]\n";
+                    "\n";
             _ -> Time ++ binary_to_list(F0)++"\n"
     end,
     file:write_file("views", LogString, [append]),
