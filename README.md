@@ -6,6 +6,8 @@ Blog y servidor
 
 `sh conecta.sh` para conectar y dar instructiones
 
+`sh recente.sh` es para saber si gente miran el blog recente.
+
 control + D es para desconectar
 
 `halt().` es para cerrar
